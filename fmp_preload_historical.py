@@ -10,7 +10,7 @@ def main():
 	dbuser = os.getenv('DBUSER', "")
 	dbpassword = os.getenv('DBPASSWORD', "")
 	database = os.getenv('DATABASE', "")
-	table = os.getenv('TABLE', "")
+	table = os.getenv('FMPTABLE', "")
 
 	''' CONNECT TO THE DATABASE '''
 	connection = pymysql.connect(
